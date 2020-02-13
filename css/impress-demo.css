@@ -86,7 +86,7 @@ body {
     min-height: 740px;
 
     background: rgb(215, 215, 215);
-	
+
 }
 
 /*
@@ -193,7 +193,7 @@ a:focus {
     border-bottom:3px solid black;
     font-size:70px;
     margin-bottom:30px;
-	
+
 	}
 /*
     ... and we enhance the styles for impress.js.
@@ -517,7 +517,7 @@ a:focus {
 
     I know, it sounds complicated ... maybe it would be easier with the code?
 */
-sup { 
+sup {
     vertical-align: super;
     font-size: smaller;
 }
@@ -652,3 +652,12 @@ sup {
     Thanks for reading. I hope you enjoyed it at least as much as I enjoyed writing it
     for you.
 */
+
+.vcenter {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
